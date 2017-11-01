@@ -9,40 +9,42 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FEFEFD;
+  background: #fefefd;
 }
-.moves{
+
+.moves {
   word-spacing: 33px;
 }
-nav{
+
+nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   font-size: 37px;
   min-height: 60px;
 }
-.wrapper {
 
+.wrapper {
   height: 600px;
   border: 0px solid #777777;
   margin: auto;
   padding: 50px 50px 50px 50px;
   width: 900px;
-
 }
+
 header {
   text-align: center;
   margin-bottom: 10px;
 }
+
 main {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.peg{
-  background: #FEFEFD;
+.peg {
+  background: #fefefd;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -51,6 +53,7 @@ main {
   border-bottom: 3px solid #000000;
   text-align: center;
 }
+
 .disc1 {
   margin-top: 1px;
   margin-bottom: inherit;
@@ -60,6 +63,7 @@ main {
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
 .disc2 {
   margin-top: 1px;
   margin-bottom: inherit;
@@ -69,6 +73,7 @@ main {
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .disc3 {
   margin-top: 1px;
   margin-bottom: inherit;
@@ -78,6 +83,7 @@ main {
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .disc4 {
   margin-top: 1px;
   margin-bottom: inherit;
@@ -87,6 +93,7 @@ main {
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .disc5 {
   margin-top: 1px;
   margin-bottom: inherit;
@@ -96,15 +103,15 @@ main {
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-img{
 
+img {
   display: block;
   margin: 0px auto;
   width: 50px;
   height: 50px;
-
 }
-footer{
+
+footer {
   display: flex;
   justify-content: center;
   margin-top: 50px;
