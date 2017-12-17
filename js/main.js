@@ -46,7 +46,7 @@ $(document).ready(function() {
 		$("span, .bttn").hide()
 
 		if (onStart) {
-			$(".moves").text(`MIN 31 MOVES`)
+			$(".moves").text(`Min 31 Moves`)
 			timeStart = timeStamp()
 			onStart = false
 			console.log(timeStart)
@@ -135,7 +135,7 @@ $(document).ready(function() {
 				if (end.length === 5) {
 					timeEnd = timeStamp()
 					time = timeEnd - timeStart
-					$(".moves").text(`${counter} MOVES IN ${time} SEC`)
+					$(".moves").text(`${counter} Moves In ${time} Sec`)
 					return
 				}
 
