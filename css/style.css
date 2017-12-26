@@ -60,6 +60,9 @@ footer {
 	padding: 30px;
 	border-radius: 25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	font-family: "Quicksand", sans-serif;
+	margin: 10px;
+	text-align: left;
 }
 .peg {
 	background: #fefefd;
