@@ -44,6 +44,7 @@ $(document).ready(function() {
 	$(".peg").click(function(e) {
 		//things that I need only to happen once for the round of game
 		$("span, .bttn").hide()
+		$(".instructions").hide()
 
 		if (onStart) {
 			$(".moves").text(`Min 31 Moves`)
