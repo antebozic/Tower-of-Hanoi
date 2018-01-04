@@ -121,6 +121,8 @@ footer {
 }
 .bttn {
 	font-size: 15px;
+	text-decoration: none;
+	color: black;
 }
 .bttn:hover {
 	color: #ff5842;

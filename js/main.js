@@ -22,28 +22,11 @@ $(document).ready(function() {
 		return Math.floor(Date.now() / 1000)
 	}
 
-	//instructions toggle
-
-	function toggleView() {
-		$(".instructions").hide()
-	}
-	toggleView()
-
-	$(".bttn").click(function(e) {
-		e.preventDefault
-		if ($(".instructions").is(":hidden")) {
-			$(".instructions").show()
-			$(".bttn").css("color", "#ff5842")
-		} else if ($(".instructions").is(":visible")) {
-			$(".instructions").hide()
-			$(".bttn").css("color", "#000000")
-		}
-	})
-
 	//click event
 	$(".peg").click(function(e) {
 		//things that I need only to happen once for the round of game
-		$("span, .bttn").hide()
+		$("span").hide()
+		$(".bttn").hide()
 
 		if (onStart) {
 			$(".moves").text(`Min 31 Moves`)
