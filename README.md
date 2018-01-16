@@ -13,8 +13,8 @@ From the first click, the timer is activated and is displayed upon the completio
 
 ## Technologies Used
 
-# Model of the game is coded in JS using jQuery library 
-# View layer is HTML styled with CSS
+Model of the game is coded in JS using jQuery library 
+View layer is HTML styled with CSS
 
 
 ## Unsolved problems
