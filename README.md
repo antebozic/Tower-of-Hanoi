@@ -9,7 +9,7 @@ From the first click, the timer is activated and is displayed upon the completio
 
 ## Application Preview
 
-![picture](./public/screen.png)
+![picture](./img/screen.png)
 
 ## Technologies Used
 
