@@ -1,16 +1,22 @@
-# Tower-of-Hanoi
+## Summary
 
-Description:
-- Project is a browser game Tower of Hanoi, with the objective of moving discs from the leftmost to the rightmost stack, using intermediate stack. Moves are possible only if the disk making a move is being put on top of a larger disk or empty stack.
+The project is a browser game Tower of Hanoi, with the objective of moving discs from the leftmost to the rightmost stack, using the intermediate stack. Moves are possible only if the disk making a move is being put on top of a larger disk or empty stack. Deployed version can be found at: https://antebozic.github.io/Tower-of-Hanoi/index.html
 
-List of Features/User Stories:
-- Bronze: disks are moving correctly from one stack to another, observing the rules of the game
-- Silver: tracking time & moves user is making
--	Gold: demo option displaying solution // to be added
+## User Stories
 
-List of Technologies Used:
--	Model of the game is coded in JS using jQuery library 
--	View layer is HTML styled with CSS
+A user of this app is playing the game inside of a web browser. Elements are moved around by clicking on them. The first click is made on the element that user wants to move, and the second click on the place where that element will move.
+From the first click, the timer is activated and is displayed upon the completion of the puzzle together with the total number of moves made.
 
-Getting Started
-- Opening game URL in a browser 
+## Application Preview
+
+![picture](./public/screen.png)
+
+## Technologies Used
+
+# Model of the game is coded in JS using jQuery library 
+# View layer is HTML styled with CSS
+
+
+## Unsolved problems
+
+I would like to add code featuring recursive function that would display ideal solution to the puzzle.
